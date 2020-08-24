@@ -1,0 +1,23 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "content",
+        "group": "footer_suffix",
+        "modules": [
+          "cm_footer_extra_icons.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "footer_suffix",
+        "modules": [
+          "cm_footer_extra_icons.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": []
+  }

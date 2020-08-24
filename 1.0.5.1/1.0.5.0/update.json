@@ -1,0 +1,42 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "boxes",
+        "modules":  [
+          "bm_best_sellers.php"
+        ]
+      },
+      {
+        "set": "dashboard",
+        "modules":  [
+          "d_latest_addons.php"
+        ]
+      }
+    ],
+    "required_modules_install": [],
+    "optional_modules_install": [
+      {
+        "set": "boxes",
+        "modules":  [
+          "bm_best_sellers.php"
+        ]
+      }
+    ],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/languages/english/modules/dashboard/d_latest_addons.php",
+      "admin/includes/modules/dashboard/d_latest_addons.php",
+      "includes/classes/cc_validation.php",
+      "includes/classes/currencies.php",
+      "includes/classes/email.php",
+      "includes/classes/hooks.php",
+      "includes/classes/message_stack.php",
+      "includes/classes/mime.php",
+      "includes/classes/order.php",
+      "includes/classes/order_total.php",
+      "includes/classes/osc_template.php",
+      "includes/classes/payment.php",
+      "includes/classes/shipping.php",
+      "includes/modules/payment/braintree_cc/"
+    ]
+  }

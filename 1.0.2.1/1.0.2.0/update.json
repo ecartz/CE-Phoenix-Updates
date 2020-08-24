@@ -1,0 +1,56 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "content",
+        "group": "product_info",
+        "modules": [
+          "cm_pi_review_button.php",
+          "cm_pi_reviews.php"
+        ]
+      },
+      {
+        "set": "navbar_modules",
+        "modules": [
+          "nb_reviews.php"
+        ]
+      },
+      {
+        "set": "boxes",
+        "modules": [
+          "bm_reviews.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "boxes",
+        "modules": [
+          "bm_reviews.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "product_info",
+        "modules": [
+          "cm_pi_reviews.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/languages/english/modules/content/product_info/cm_pi_review_button.php",
+      "includes/languages/english/modules/navbar_modules/nb_reviews.php",
+      "includes/languages/english/product_reviews.php",
+      "includes/languages/english/product_reviews_write.php",
+      "includes/languages/english/reviews.php",
+      "includes/modules/content/product_info/cm_pi_review_button.php",
+      "includes/modules/content/product_info/templates/tpl_cm_pi_review_button.php",
+      "includes/modules/navbar_modules/nb_reviews.php",
+      "includes/modules/navbar_modules/templates/tpl_nb_reviews.php",
+      "product_reviews.php",
+      "product_reviews_write.php",
+      "reviews.php",
+      "custom.css"
+    ]
+  }

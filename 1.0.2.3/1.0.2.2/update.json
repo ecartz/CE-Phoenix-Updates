@@ -1,0 +1,30 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "content",
+        "group": "index_nested",
+        "modules": [
+          "cm_in_category_listing.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "login",
+        "modules": [
+          "cm_forgot_password.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_nested",
+        "modules": [
+          "cm_in_category_listing.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": []
+  }

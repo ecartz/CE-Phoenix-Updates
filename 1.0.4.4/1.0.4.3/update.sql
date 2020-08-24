@@ -1,0 +1,1 @@
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('Default Image', 'DEFAULT_IMAGE', '', 'The default image to show if the image is not a valid file. Leave blank not to show a default.', '4', '5', NOW());

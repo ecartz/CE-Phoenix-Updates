@@ -1,0 +1,12 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/classes/action_recorder.php",
+      "includes/modules/header_tags/ht_mailchimp_360/",
+      "includes/classes/alertbox.php",
+      "includes/classes/passwordhash.php"
+    ]
+  }

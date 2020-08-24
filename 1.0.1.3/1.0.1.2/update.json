@@ -1,0 +1,25 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "content",
+        "group": "navigation",
+        "modules": [
+          "cm_navbar.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "navigation",
+        "modules": [
+          "cm_navbar.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/languages/english/product_reviews_info.php"
+    ]
+  }

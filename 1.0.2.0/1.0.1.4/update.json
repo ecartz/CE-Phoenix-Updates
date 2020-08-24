@@ -1,0 +1,74 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "header_tags",
+        "modules":  [
+          "ht_grid_list_view.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "product_info",
+        "modules": [
+          "cm_pi_also_purchased.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index",
+        "modules": [
+          "cm_i_card_products.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_nested",
+        "modules": [
+          "cm_in_card_products.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_products",
+        "modules": [
+          "cm_ip_product_listing.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "product_info",
+        "modules": [
+          "cm_pi_also_purchased.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index",
+        "modules": [
+          "cm_i_card_products.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_nested",
+        "modules": [
+          "cm_in_card_products.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_products",
+        "modules": [
+          "cm_ip_product_listing.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/modules/header_tags/ht_grid_list_view.php",
+      "includes/languages/english/modules/header_tags/ht_grid_list_view.php"
+    ]
+  }

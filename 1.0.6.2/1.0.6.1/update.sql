@@ -1,0 +1,1 @@
+UPDATE configuration SET configuration_value = CONCAT(configuration_value, ';create_account;customers') WHERE configuration_key LIKE 'MODULE_CUSTOMER_DATA%PAGES';

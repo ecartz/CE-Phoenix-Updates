@@ -1,0 +1,1 @@
+ALTER TABLE configuration CHANGE configuration_description configuration_description TEXT NOT NULL;

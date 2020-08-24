@@ -1,0 +1,54 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "social_bookmarks",
+        "modules": [
+          "sb_email.php"
+        ]
+      },
+      {
+        "set": "action_recorder",
+        "modules": [
+          "ar_tell_a_friend.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "checkout_success",
+        "modules": [
+          "cm_cs_product_notifications.php"
+        ]
+      },
+      {
+        "set": "header_tags",
+        "modules": [
+          "ht_robot_noindex.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "checkout_success",
+        "modules": [
+          "cm_cs_product_notifications.php"
+        ]
+      },
+      {
+        "set": "header_tags",
+        "modules": [
+          "ht_robot_noindex.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "tell_a_friend.php",
+      "includes/modules/social_bookmarks/sb_email.php",
+      "includes/modules/action_recorder/ar_tell_a_friend.php",
+      "includes/languages/english/tell_a_friend.php",
+      "includes/languages/english/modules/social_bookmarks/sb_email.php",
+      "includes/languages/english/modules/action_recorder/ar_tell_a_friend.php"
+    ]
+  }

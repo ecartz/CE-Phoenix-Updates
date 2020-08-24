@@ -1,0 +1,25 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "boxes",
+        "modules": [
+          "bm_reviews.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "boxes",
+        "modules": [
+          "bm_reviews.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/cache.php",
+      "admin/includes/languages/english/cache.php",
+      "includes/functions/cache.php"
+    ]
+  }

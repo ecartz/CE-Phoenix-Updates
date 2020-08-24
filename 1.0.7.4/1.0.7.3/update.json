@@ -1,0 +1,47 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "header_tags",
+        "modules":  [
+          "ht_breadcrumb_schema.php",
+          "ht_category_title.php",
+          "ht_manufacturer_title.php",
+          "ht_product_title.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "header",
+        "modules": [
+          "cm_header_breadcrumb.php"
+        ]
+      }
+    ],
+    "required_modules_install": [],
+    "optional_modules_install": [
+      {
+        "set": "header_tags",
+        "modules":  [
+          "ht_category_title.php",
+          "ht_manufacturer_title.php",
+          "ht_product_title.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "header",
+        "modules": [
+          "cm_header_breadcrumb.php"
+        ]
+      }
+    ],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/classes/language.php",
+      "includes/functions/compatibility.php",
+      "includes/functions/specials.php",
+      "includes/functions/whos_online.php",
+      "includes/modules/header_tags/ht_breadcrumb_schema.php",
+      "includes/languages/english/modules/header_tags/ht_breadcrumb_schema.php"
+    ]
+  }

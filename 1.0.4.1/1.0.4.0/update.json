@@ -1,0 +1,28 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/classes/phplot.php",
+      "ext/flot/LICENSE.txt",
+      "ext/flot/excanvas.min.js",
+      "ext/flot/jquery.colorhelpers.min.js",
+      "ext/flot/jquery.flot.canvas.min.js",
+      "ext/flot/jquery.flot.categories.min.js",
+      "ext/flot/jquery.flot.crosshair.min.js",
+      "ext/flot/jquery.flot.errorbars.min.js",
+      "ext/flot/jquery.flot.fillbetween.min.js",
+      "ext/flot/jquery.flot.image.min.js",
+      "ext/flot/jquery.flot.min.js",
+      "ext/flot/jquery.flot.navigate.min.js",
+      "ext/flot/jquery.flot.pie.min.js",
+      "ext/flot/jquery.flot.resize.min.js",
+      "ext/flot/jquery.flot.selection.min.js",
+      "ext/flot/jquery.flot.stack.min.js",
+      "ext/flot/jquery.flot.symbol.min.js",
+      "ext/flot/jquery.flot.threshold.min.js",
+      "ext/flot/jquery.flot.time.min.js",
+      "ext/flot/"
+    ]
+  }

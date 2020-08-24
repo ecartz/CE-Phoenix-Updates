@@ -1,0 +1,29 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "header_tags",
+        "modules":  [
+          "ht_gpublisher.php"
+        ]
+      },
+      {
+        "set": "social_bookmarks",
+        "modules":  [
+          "sb_google_plus_one.php ",
+          "sb_google_plus_share.php"
+        ]
+      }
+    ],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/functions/gzip_compression.php",
+      "includes/modules/header_tags/ht_gpublisher.php",
+      "includes/languages/english/modules/header_tags/ht_gpublisher.php",
+      "includes/modules/social_bookmarks/sb_google_plus_one.php ",
+      "includes/modules/social_bookmarks/sb_google_plus_share.php",
+      "includes/languages/english/modules/social_bookmarks/sb_google_plus_one.php",
+      "includes/languages/english/modules/social_bookmarks/sb_google_plus_share.php"
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [
+      "ext/modules/payment/authorizenet/",
+      "/includes/modules/payment/",
+      "/includes/languages/english/modules/payment/"
+    ],
+    "required_files_delete": [
+      "admin/includes/column_left.php",
+      "download/unreal.zip"
+    ]
+  }

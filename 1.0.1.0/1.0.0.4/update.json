@@ -1,0 +1,20 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "shopping_cart",
+        "modules": [
+          "cm_sc_checkout.php",
+          "cm_sc_no_products.php",
+          "cm_sc_order_subtotal.php",
+          "cm_sc_product_listing.php",
+          "cm_sc_stock_notice.php",
+          "cm_sc_title.php"
+        ]
+      }    
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": []
+  }

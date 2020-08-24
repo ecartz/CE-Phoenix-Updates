@@ -1,0 +1,1 @@
+delete from configuration where configuration_key = 'ALLOW_GUEST_TO_TELL_A_FRIEND';

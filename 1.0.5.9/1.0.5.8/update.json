@@ -1,0 +1,52 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "content",
+        "group": "header",
+        "modules": [
+          "cm_header_messagestack.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "header",
+        "modules": [
+          "cm_header_messagestack.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/database_tables.php",
+      "admin/includes/general.js",
+      "admin/images/icon_arrow_right.gif",
+      "admin/images/icon_info.gif",
+      "admin/images/icon_status_green.gif",
+      "admin/images/icon_status_green_light.gif",
+      "admin/images/icon_status_red.gif",
+      "admin/images/icon_status_red_light.gif",
+      "admin/images/icons/cross.gif",
+      "admin/images/icons/error.gif",
+      "admin/images/icons/folder.gif",
+      "admin/images/icons/preview.gif",
+      "admin/images/icons/success.gif",
+      "admin/images/icons/tick.gif",
+      "admin/images/icons/warning.gif",
+      "admin/images/ms_error.png",
+      "admin/images/ms_error_bg.png",
+      "admin/images/ms_info.png",
+      "admin/images/ms_info_bg.png",
+      "admin/images/ms_success.png",
+      "admin/images/ms_success_bg.png",
+      "admin/images/ms_warning.png",
+      "admin/images/ms_warning_bg.png",
+      "admin/images/pixel_black.gif",
+      "admin/images/pixel_trans.gif",
+      "includes/hooks/admin/siteWide/vMenu.php",
+      "install/oscommerce.sql",
+      "install/oscommerce_data_sample.sql"
+    ]
+  }

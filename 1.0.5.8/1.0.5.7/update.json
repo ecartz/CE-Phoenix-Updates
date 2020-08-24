@@ -1,0 +1,21 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "boxes",
+        "modules":  [
+          "bm_categories.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "boxes",
+        "modules":  [
+          "bm_categories.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": []
+  }

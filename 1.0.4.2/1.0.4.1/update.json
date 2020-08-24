@@ -1,0 +1,36 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "dashboard",
+        "modules":  [
+          "d_total_revenue.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "dashboard",
+        "modules":  [
+          "d_total_revenue.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/images/graph_hbar_blue.gif",
+      "admin/images/graph_hbar_red.gif",
+      "admin/images/graphs/dummy",
+      "admin/images/icon_facebook.png",
+      "admin/images/icon_google_plus.png",
+      "admin/images/icon_newsletter.png",
+      "admin/images/icon_popup.gif",
+      "admin/images/icon_reset.gif",
+      "admin/images/icon_rss.png",
+      "admin/images/icon_save.gif",
+      "admin/images/icon_status_yellow.gif",
+      "admin/includes/functions/html_graphs.php",
+      "admin/includes/functions/localization.php",
+      "includes/classes/shopping_cart.php"
+    ]
+  }

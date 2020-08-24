@@ -1,0 +1,78 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "payment",
+        "modules":  [
+          "stripe.php"
+        ]
+      },
+      {
+        "set": "header_tags",
+        "modules":  [
+          "ht_product_colorbox.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "product_info",
+        "modules": [
+          "cm_pi_gallery.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "content",
+        "group": "create_account_success",
+        "modules": [
+          "cm_cas_continue_button.php",
+          "cm_cas_message.php",
+          "cm_cas_title.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "product_info",
+        "modules": [
+          "cm_pi_gallery.php"
+        ]
+      },
+      {
+        "set": "notifications",
+        "modules":  [
+          "n_checkout.php",
+          "n_create_account.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [
+      {
+        "set": "content",
+        "group": "gdpr",
+        "modules": [
+          "cm_gdpr_contact_addresses.php",
+          "cm_gdpr_contact_details.php",
+          "cm_gdpr_intro.php",
+          "cm_gdpr_personal_details.php",
+          "cm_gdpr_site_actions.php",
+          "cm_gdpr_site_details.php"
+        ]
+      }
+    ],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "ext/colorbox/",
+      "ext/photoset-grid/",
+      "ext/modules/content/account/stripe/",
+      "includes/modules/navbar_modules/",
+      "includes/languages/english/modules/navbar_modules/",
+      "admin/includes/languages/english/images/",
+      "includes/languages/english/checkout_process.php",
+      "includes/languages/english/modules/content/account/cm_account_stripe_cards.php",
+      "includes/languages/english/modules/header_tags/ht_product_colorbox.php",
+      "includes/languages/english/modules/payment/stripe.php",
+      "includes/modules/content/account/cm_account_stripe_cards.php",
+      "includes/modules/header_tags/ht_product_colorbox.php",
+      "includes/modules/payment/stripe.php"
+    ]
+  }

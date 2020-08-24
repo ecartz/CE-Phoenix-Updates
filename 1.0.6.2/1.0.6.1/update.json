@@ -1,0 +1,45 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_city.php",
+          "cd_country.php",
+          "cd_email_address.php",
+          "cd_firstname.php",
+          "cd_lastname.php",
+          "cd_newsletter.php",
+          "cd_password.php",
+          "cd_password_confirmation.php",
+          "cd_postcode.php",
+          "cd_cd_state.php",
+          "cd_street_address.php",
+          "cd_suburb.php",
+          "cd_telephone.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "customer_data",
+        "modules":  [
+          "cd_city.php",
+          "cd_country.php",
+          "cd_email_address.php",
+          "cd_firstname.php",
+          "cd_lastname.php",
+          "cd_newsletter.php",
+          "cd_password.php",
+          "cd_password_confirmation.php",
+          "cd_postcode.php",
+          "cd_cd_state.php",
+          "cd_street_address.php",
+          "cd_suburb.php",
+          "cd_telephone.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": []
+  }

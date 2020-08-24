@@ -1,0 +1,47 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "social_bookmarks",
+        "modules": [
+          "sb_digg.php",
+          "sb_facebook.php",
+          "sb_facebook_like.php",
+          "sb_pinterest.php",
+          "sb_twitter.php",
+          "sb_twitter_button.php"
+        ]
+      },
+      {
+        "set": "boxes",
+        "modules": [
+          "bm_card_acceptance.php",
+          "bm_product_social_bookmarks.php"
+        ]
+      }
+    ],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/classes/rss.php",
+      "includes/modules/boxes/bm_product_social_bookmarks.php",
+      "admin/includes/modules/cfg_modules/cfgm_social_bookmarks.php",
+      "includes/modules/boxes/bm_card_acceptance.php",
+      "includes/languages/english/modules/boxes/bm_product_social_bookmarks.php",
+      "includes/languages/english/modules/boxes/bm_card_acceptance.php",
+      "includes/modules/social_bookmarks/sb_digg.php",
+      "includes/modules/social_bookmarks/sb_facebook.php",
+      "includes/modules/social_bookmarks/sb_facebook_like.php",
+      "includes/modules/social_bookmarks/sb_pinterest.php",
+      "includes/modules/social_bookmarks/sb_twitter.php",
+      "includes/modules/social_bookmarks/sb_twitter_button.php",
+      "includes/modules/social_bookmarks/",
+      "includes/languages/english/modules/social_bookmarks/sb_digg.php",
+      "includes/languages/english/modules/social_bookmarks/sb_facebook.php",
+      "includes/languages/english/modules/social_bookmarks/sb_facebook_like.php",
+      "includes/languages/english/modules/social_bookmarks/sb_pinterest.php",
+      "includes/languages/english/modules/social_bookmarks/sb_twitter.ph",
+      "includes/languages/english/modules/social_bookmarks/sb_twitter_button.php",
+      "includes/languages/english/modules/social_bookmarks/"
+    ]
+  }

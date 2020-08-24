@@ -1,0 +1,42 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "boxes",
+        "modules":  [
+          "bm_order_history.php",
+          "bm_reviews.php",
+          "bm_specials.php",
+          "bm_whats_new.php"
+        ]
+      },
+      {
+        "set": "currencies",
+        "modules":  [
+          "c_currencylayer.php",
+          "c_exchangeratesapi.php",
+          "c_fixer.php"
+        ]
+      }
+    ],
+    "required_modules_install": [],
+    "optional_modules_install": [
+      {
+        "set": "boxes",
+        "modules":  [
+          "bm_order_history.php",
+          "bm_reviews.php",
+          "bm_specials.php",
+          "bm_whats_new.php"
+        ]
+      }
+    ],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/includes/modules/currencies/c_currencylayer.php",
+      "admin/includes/modules/currencies/c_exchangeratesapi.php",
+      "admin/includes/modules/currencies/c_fixer.php",
+      "admin/includes/languages/english/modules/currencies/c_currencylayer.php",
+      "admin/includes/languages/english/modules/currencies/c_exchangeratesapi.php",
+      "admin/includes/languages/english/modules/currencies/c_fixer.php"
+    ]
+  }

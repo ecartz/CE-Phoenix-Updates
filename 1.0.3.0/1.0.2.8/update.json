@@ -1,0 +1,18 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "admin/banner_manager.php",
+      "admin/banner_statistics.php",
+      "admin/includes/graphs/banner_daily.php",
+      "admin/includes/graphs/banner_infobox.php",
+      "admin/includes/graphs/banner_monthly.php",
+      "admin/includes/graphs/banner_yearly.php",
+      "admin/includes/languages/english/banner_manager.php",
+      "admin/includes/languages/english/banner_statistics.php",
+      "admin/popup_image.php",
+      "includes/functions/banner.php"
+    ]
+  }

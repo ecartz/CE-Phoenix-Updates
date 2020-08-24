@@ -1,0 +1,27 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/modules/address_book_details.php",
+      "includes/modules/checkout_new_address.php",
+      "includes/modules/downloads.php",
+      "includes/modules/product_listing.php",
+      "includes/footer.php",
+      "includes/header.php",
+      "includes/template_bottom.php",
+      "includes/template_top.php",
+      "includes/hooks/shop/index/catCSS.php",
+      "includes/hooks/shop/progress/progress_hooks.php",
+      "includes/hooks/shop/siteWide/MATC.php",
+      "includes/hooks/shop/siteWide/bootStrap.php",
+      "includes/hooks/shop/siteWide/cardCSS.php",
+      "includes/hooks/shop/siteWide/filterList.php",
+      "includes/hooks/shop/siteWide/fontAwesome.php",
+      "includes/hooks/shop/siteWide/jQuery.php",
+      "includes/hooks/shop/siteWide/noJs.php",
+      "includes/hooks/shop/siteWide/styleSheets.php",
+      "includes/hooks/shop/write/css.php"
+    ]
+  }

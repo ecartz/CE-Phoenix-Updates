@@ -1,0 +1,38 @@
+{
+    "required_modules_remove": [
+      {
+        "set": "order_total",
+        "modules":  [
+          "ot_tax.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_nested",
+        "modules": [
+          "cm_in_category_listing.php"
+        ]
+      }
+    ],
+    "required_modules_install": [
+      {
+        "set": "order_total",
+        "modules":  [
+          "ot_tax.php"
+        ]
+      },
+      {
+        "set": "content",
+        "group": "index_nested",
+        "modules": [
+          "cm_in_category_listing.php"
+        ]
+      }
+    ],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "templates/default/includes/hooks/shop/index/catCSS.php",
+      "templates/default/includes/hooks/shop/siteWide/cardCSS.php"
+    ]
+  }
