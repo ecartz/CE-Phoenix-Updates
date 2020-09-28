@@ -1,0 +1,11 @@
+{
+    "required_modules_remove": [],
+    "required_modules_install": [],
+    "optional_modules_install": [],
+    "optional_files_delete": [],
+    "required_files_delete": [
+      "includes/modules/checkout/",
+      "templates/default/images/",
+      "user.css"
+    ]
+  }
